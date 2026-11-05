@@ -38,6 +38,7 @@ const EDU_FIELDS = [
   { key: 'subtitle', label: 'Subtitle (e.g. GPA, track)', type: 'text' },
   { key: 'institution', label: 'Institution', type: 'text' },
   { key: 'tags', label: 'Tags (comma separated)', type: 'tags' },
+  { key: 'image_url', label: 'Certificate image (shown as the card background)', type: 'image', folder: 'certificates' },
   { key: 'active', label: 'Visible on the site', type: 'check', default: true },
 ]
 
